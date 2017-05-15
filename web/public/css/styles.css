@@ -176,7 +176,7 @@ line, path {
     position: relative;
 }
 .left-panel-toolbar .left-panel-toolbar-back,
-#left-panel-country-back {
+#left-panel-country-back, #left-panel-highscore-back {
     padding: 0.4rem 1rem 0.5rem 1rem;
     line-height: 1;
     background: rgba(0, 0, 0, 0.1);
@@ -185,7 +185,7 @@ line, path {
     font-size: 2rem;
 }
 .left-panel-toolbar .left-panel-toolbar-back:hover,
-#left-panel-country-back:hover {
+#left-panel-country-back:hover, #left-panel-highscore-back:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 .left-panel .left-panel-toolbar-title,
@@ -514,25 +514,26 @@ div.highscore-button {
 .weather-buttons {
     display: flex;
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
-    margin: 0.5rem;
 }
 .weather-buttons a {
     border-radius: 15%;
     background-color: lightgray;
-    margin: 0.3rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 
-    width: 2.3rem;
-    height: 2.3rem;
+    width: 3.0rem;
+    height: 3.0rem;
 }
 .weather-buttons img {
-    height: 1.5rem;
+    height: 1.2rem;
     filter: unset;
 }
 .weather-buttons .active img {
